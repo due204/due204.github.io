@@ -1,0 +1,21 @@
+
+
+Desarrollo de una aplicación de gestión de talleres de electrónica (Proyecto Personal)
+Rol: Desarrollador Python
+En uno de mis primeros proyectos personales, desarrollé una aplicación de escritorio para la gestión de talleres de electrónica, utilizando Python como lenguaje principal. Me encargué del diseño completo de la aplicación, incluyendo toda la lógica de backend. La aplicación permite el ingreso de datos de clientes para generar órdenes de reparación en formato PDF, que pueden ser impresas o visualizadas en el navegador. Además, los datos se almacenan en una base de datos ligera, SQLite3, a través de un ORM para futuras consultas, como el seguimiento de fallas, presupuestos y balances de reparaciones. Este proyecto mejoró mis habilidades en el desarrollo con Python, interfaces gráficas con Tkinter, y en el manejo de bases de datos mediante ORM.
+Duración: Proyecto de 6 meses
+https://github.com/due204/Titita
+
+
+Colaboración en un proyecto de software libre (Contribución Personal)
+Rol: Contribuidor en documentación y pruebas de software
+He colaborado en Centrux Linux, una distribución GNU/Linux orientada al análisis forense, como parte de la comunidad de software libre. Mi rol incluyó la mejora de la documentación y la realización de pruebas de nuevas funcionalidades. Gracias a mis contribuciones, los usuarios pudieron comprender mejor el software, y ayudé a mejorar la estabilidad del sistema al identificar y reportar errores críticos. Esta experiencia me brindó la oportunidad de trabajar con la comunidad open source y fortalecer mis habilidades en entornos Linux.
+Duración: Proyecto continuo, participación durante 6 meses
+https://centrux.org/
+
+
+Generador de voz basado en texto en Python
+Rol: Desarrollador Python
+Este proyecto fue desarrollado como parte de la materia "Fundamentos de Informática" en la universidad. Utiliza Python como lenguaje principal, junto con la biblioteca Tkinter para la creación de interfaces gráficas. El motor de conversión de texto a voz está basado en la API de Google Text-to-Speech (gTTS). La aplicación permite a los usuarios ingresar texto en una interfaz sencilla, que luego es convertido a audio. Este proyecto me permitió adquirir experiencia en la integración de APIs externas, el desarrollo de interfaces gráficas y el manejo de archivos de audio generados dinámicamente.
+https://github.com/due204/Facultad/blob/main/generar_audio.py
+

@@ -1,0 +1,20 @@
+
+MAN(1)     Utilidades de paginador del manual     MAN(1)
+
+Pagina de ayuda de comandos disponibles:
+- ayuda - Muesta la lista de comandos diponibles 
+- clear - Limpia el terminal
+- contacto - Muestra la manera de contactarme
+- cv - Muestra en una nueva pestaña mi CV, con el parametro -d o --download lo descarga directamente
+- date - Muestra la fecha actual
+- estudios - Muestra mis estudios realizados
+- exit - Cierra el terminal
+- habilidades - Muestra mis habilidades
+- help - Muesta la lista de comandos diponibles 
+- info - Muestra información acerca de mi
+- ls - Muestra el listado de la ubicación actual
+- man - Muesta la interfaz de los manuales de referencia del sistema
+- proyectos - Muestra un listado con algunos de los proyectos en los que participe
+- pwd - Muestra la url de la página
+- whoami - Muestra el identificador de usuario efectivo
+
