@@ -52,9 +52,101 @@ input {
     white-space: pre-wrap;
 }
 
+/* Personalización de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+    background: black; /* Color de fondo del track (pista) */
+    border: 1px solid #00FF00; /* Borde del track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00FF00; /* Color del "pulgar" (parte que se mueve) */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 2px solid black; /* Borde alrededor del pulgar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #00AA00; /* Color del pulgar al pasar el ratón */
+}
+
+/* Personalización para Firefox */
+body {
+    scrollbar-color: #00FF00 black; /* Color del pulgar y del track */
+    scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+}
+
 footer {
     margin-top: 10px;
     font-size: 14px;
     text-align: center;
     flex-shrink: 0; /* Evita que el pie de página se oculte */
 }
+
+/* Responsividad */
+
+/* Para dispositivos pequeños (teléfonos) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .terminal {
+        width: 95%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .terminal {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Para monitores grandes */
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .terminal {
+        width: 70%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
